@@ -1,0 +1,38 @@
+{
+  "name": "anigo-anime-api",
+  "version": "1.0.0",
+  "description": "Anigo Anime API scrapes data from gogoanime and animixplay",
+  "main": "lib/index.js",
+  "types": "typings/index.d.ts",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto-js": "^4.1.1",
+    "fast-xml-parser": "^4.0.10",
+    "figlet": "^1.4.0"
+  },
+  "author": "SniperrifleXD",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anigo-animeapi/anigo-anime-api.git"
+  },
+  "keywords": [
+    "anime",
+    "animixplay",
+    "gogoanime",
+    "animeapi"
+  ],
+  "bugs": {
+    "url": "https://github.com/anigo-animeapi/anigo-anime-api/issues"
+  },
+  "homepage": "https://github.com/anigo-animeapi/anigo-anime-api#readme"
+}
